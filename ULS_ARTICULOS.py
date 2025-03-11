@@ -5,10 +5,12 @@ from tkinter import messagebox
 ######## VENTANA PARA INSETAR DATOS 
 
 def ventana_agregar():
-    #windows.withdraw()
-    window=tk.Toplevel()
-    window.geometry("512x512")
-    e1=tk.Label(window, text="AGREGAR PRODUCTOS :",bg="white",fg="black").place(x=50, y=50),
+    # windows.withdraw()  # Comentado
+    window = tk.Toplevel()
+    window.geometry("600x600")  # Modificado de "512x512"
+    e1 = tk.Label(window, text="AGREGAR PRODUCTOS:", bg="lightgray", fg="black")  
+    e1.place(x=50, y=50)  # Corregido el uso de place()
+
  
 
    
